@@ -1,6 +1,9 @@
+mod elliptic;
 mod qap;
 mod r1cs;
 
 fn main() {
-	qap::run_example();
+	// r1cs::run_example();
+	// qap::run_example();
+	elliptic::run_example();
 }

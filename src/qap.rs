@@ -1,4 +1,3 @@
-// (0, 0), (1, 0), (2, 0), (3, 5)
 use rustnomial::Polynomial as Rustnomial;
 
 type Polynomial = [f32; 4];

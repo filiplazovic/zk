@@ -31,7 +31,7 @@ fn r1cs_add(a: R1csNumber, b: R1csNumber) -> R1csNumber {
 // y = sym_1 * x
 // sym_2 = y + x
 // ~out = sym_2 + 5
-fn run_example() {
+pub fn run_example() {
 	let a1: R1csNumber = [0, 1, 0, 0, 0, 0];
 	let output1: R1csNumber = [0, 0, 0, 1, 0, 0];
 	let res = r1cs_eval(a1, a1, output1);
