@@ -44,7 +44,7 @@ fn double(p: Point) -> Point {
 	Point { x: r_x, y: r_y }
 }
 
-pub fn run_example() {
+pub fn add_double_example() {
 	let a = Point::new(1.0);
 	let b = Point::new(4.0);
 	let r = add(a.clone(), b);
@@ -52,3 +52,5 @@ pub fn run_example() {
 	let d = double(a);
 	println!("double: {:?}", d);
 }
+
+pub fn diffie_hellman_example() {}

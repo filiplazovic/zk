@@ -8,3 +8,6 @@ edition = "2018"
 
 [dependencies]
 rustnomial = "0.3.2"
+num-bigint = { version = "0.4", default-features = false }
+num-integer = "0.1.44"
+num-traits = "0.2"
