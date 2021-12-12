@@ -1,0 +1,1 @@
+fn power_cycle() {}
