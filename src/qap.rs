@@ -49,9 +49,9 @@ fn eval_row(index: f32, polys: &[Polynomial; 6]) -> Row {
 
 fn eval_group(polys: &[Polynomial; 6]) -> Group {
 	let mut group: Group = [[0.; 6]; 4];
-	for i in 1..5 {
-		let row = eval_row(i as f32, &polys);
-		group[i - 1] = row;
+	for i in 0..4 {
+		let row = eval_row((i + 1) as f32, &polys);
+		group[i] = row;
 	}
 	group
 }
