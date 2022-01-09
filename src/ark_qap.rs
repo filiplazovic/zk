@@ -3,8 +3,6 @@ use ark_poly::{
 	polynomial::{univariate::DensePolynomial, UVPolynomial},
 	EvaluationDomain, Radix2EvaluationDomain, domain, Polynomial
 };
-use ark_r1cs_std::poly::evaluations::univariate::lagrange_interpolator::LagrangeInterpolator;
-use ark_std::test_rng;
 
 pub fn run_example<F: PrimeField>() {
 	// (0,3), (1,2), (2,4)
