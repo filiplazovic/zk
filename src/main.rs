@@ -9,5 +9,5 @@ pub mod qap;
 pub mod r1cs;
 
 fn main() {
-	fiat_shamir::test::<Bn254>();
+	ark_qap::run_example::<Bn254>();
 }
