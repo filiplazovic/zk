@@ -1,5 +1,4 @@
 pub mod ark_qap;
-use ark_bn254::Fq as Bn254;
 pub mod diffie_hellman;
 pub mod elliptic;
 pub mod fiat_shamir;
@@ -9,5 +8,5 @@ pub mod qap;
 pub mod r1cs;
 
 fn main() {
-	ark_qap::run_example::<Bn254>();
+	ark_qap::run_example();
 }
